@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#0F172A" flood-opacity="0.10"/></filter>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#CBD5E1"/></pattern>
+<marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#94A3B8"/></marker>
+<marker id="a0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6366F1"/></marker>
+<marker id="a1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#F97316"/></marker>
+<marker id="a2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#10B981"/></marker>
+<marker id="a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#E11D48"/></marker>
+<marker id="a4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0EA5E9"/></marker>
+<marker id="a5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C026D3"/></marker>
+</defs>
+<rect x="1" y="1" width="998" height="558" rx="18" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+<rect x="1" y="1" width="998" height="558" rx="18" fill="url(#dots)" opacity="0.6"/>
+<text x="28" y="38" font-size="20" font-weight="800" fill="#0F172A">Ch 4 · Design a Rate Limiter</text>
+<text x="28" y="58" font-size="12.5" fill="#64748B">Middleware checks a counter in Redis before letting a request through</text>
+<rect x="903.8" y="24" width="11" height="11" rx="3" fill="#FFF7ED" stroke="#F97316" stroke-width="1.6"/>
+<text x="918.8" y="34" font-size="11" fill="#475569">Storage</text>
+<rect x="848.8" y="24" width="11" height="11" rx="3" fill="#FDF4FF" stroke="#C026D3" stroke-width="1.6"/>
+<text x="863.8" y="34" font-size="11" fill="#475569">Queue</text>
+<rect x="793.8" y="24" width="11" height="11" rx="3" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.6"/>
+<text x="808.8" y="34" font-size="11" fill="#475569">Cache</text>
+<rect x="725.5999999999999" y="24" width="11" height="11" rx="3" fill="#ECFDF5" stroke="#10B981" stroke-width="1.6"/>
+<text x="740.5999999999999" y="34" font-size="11" fill="#475569">Service</text>
+<rect x="637.5999999999999" y="24" width="11" height="11" rx="3" fill="#F0F9FF" stroke="#0EA5E9" stroke-width="1.6"/>
+<text x="652.5999999999999" y="34" font-size="11" fill="#475569">Gateway/LB</text>
+<rect x="575.9999999999999" y="24" width="11" height="11" rx="3" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.6"/>
+<text x="590.9999999999999" y="34" font-size="11" fill="#475569">Client</text>
+<path d="M 174.0 290.0 L 228.0 290.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 330.0 255.0 L 330.0 158.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 330.0 415.0 L 330.0 328.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 429.0 290.0 L 513.0 290.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 381.2 255.0 L 520.0 160.0 L 738.0 160.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)" stroke-dasharray="5 5"/>
+<path d="M 381.2 325.0 L 520.0 420.0 L 728.0 420.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 174.0 290.0 L 228.0 290.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.03922;0.04314;0.16667;0.17059;1"/></path>
+<path d="M 330.0 415.0 L 330.0 328.0" fill="none" stroke="#C026D3" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a5)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.16340;0.16732;0.29085;0.29477;1"/></path>
+<path d="M 330.0 255.0 L 330.0 158.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.28758;0.29150;0.41503;0.41895;1"/></path>
+<path d="M 330.0 155.0 L 330.0 252.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.28758;0.29150;0.41503;0.41895;1"/></path>
+<path d="M 429.0 290.0 L 513.0 290.0" fill="none" stroke="#10B981" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a2)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.41176;0.41569;0.53922;0.54314;1"/></path>
+<path d="M 174.0 290.0 L 228.0 290.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.53595;0.53987;0.66340;0.66732;1"/></path>
+<path d="M 330.0 255.0 L 330.0 158.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.53595;0.53987;0.66340;0.66732;1"/></path>
+<path d="M 381.2 325.0 L 520.0 420.0 L 728.0 420.0" fill="none" stroke="#E11D48" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a3)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.66013;0.66405;0.78758;0.79150;1"/></path>
+<path d="M 381.2 255.0 L 520.0 160.0 L 738.0 160.0" fill="none" stroke="#0EA5E9" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a4)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.78431;0.78824;0.91176;0.91569;1"/></path>
+<rect x="30.0" y="259.0" width="140" height="62" rx="12" fill="#EEF2FF" stroke="#6366F1" stroke-width="2" filter="url(#sh)"/>
+<text x="50.0" y="297" font-size="19" text-anchor="middle">📱</text>
+<text x="114" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Client</text>
+<text x="114" y="305" text-anchor="middle" font-size="11" fill="#475569">many requests</text>
+<rect x="235.0" y="259.0" width="190" height="62" rx="12" fill="#F0F9FF" stroke="#0EA5E9" stroke-width="2" filter="url(#sh)"/>
+<text x="330" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Rate Limiter</text>
+<text x="330" y="305" text-anchor="middle" font-size="11" fill="#475569">middleware / gateway</text>
+<rect x="230.0" y="89.0" width="200" height="62" rx="12" fill="#FEF2F2" stroke="#EF4444" stroke-width="2" filter="url(#sh)"/>
+<text x="416.0" y="107.0" font-size="12" text-anchor="middle">⚡</text>
+<text x="330" y="118" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Redis</text>
+<text x="330" y="135" text-anchor="middle" font-size="11" fill="#475569">counters · INCR · EXPIRE</text>
+<rect x="250.0" y="419.0" width="160" height="62" rx="12" fill="#F5F5F4" stroke="#78716C" stroke-width="2" stroke-dasharray="6 4" filter="url(#sh)"/>
+<text x="330" y="448" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Rules</text>
+<text x="330" y="465" text-anchor="middle" font-size="11" fill="#475569">cached from disk</text>
+<rect x="520.0" y="259.0" width="160" height="62" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#sh)"/>
+<text x="600" y="295" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">API Servers</text>
+<rect x="745.0" y="129.0" width="150" height="62" rx="12" fill="#FDF4FF" stroke="#C026D3" stroke-width="2" filter="url(#sh)"/>
+<rect x="781" y="182.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.2"/>
+<rect x="794" y="182.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.32"/>
+<rect x="807" y="182.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.44"/>
+<rect x="820" y="182.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.56"/>
+<rect x="833" y="182.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.6799999999999999"/>
+<rect x="846" y="182.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.8"/>
+<text x="820" y="158" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Queue</text>
+<text x="820" y="175" text-anchor="middle" font-size="11" fill="#475569">optional: later</text>
+<rect x="735.0" y="389.0" width="170" height="62" rx="12" fill="#EEF2FF" stroke="#6366F1" stroke-width="2" filter="url(#sh)"/>
+<text x="755.0" y="427" font-size="19" text-anchor="middle">⛔</text>
+<text x="834" y="418" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">HTTP 429</text>
+<text x="834" y="435" text-anchor="middle" font-size="11" fill="#475569">Too Many Requests</text>
+<rect x="230.0" y="254.0" width="200" height="72" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.13399;0.13791;0.17974;1"/></rect>
+<rect x="230.0" y="254.0" width="200" height="72" rx="15" fill="none" stroke="#C026D3" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.25817;0.26209;0.30392;1"/></rect>
+<rect x="225.0" y="84.0" width="210" height="72" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.38235;0.38627;0.42810;1"/></rect>
+<rect x="230.0" y="254.0" width="200" height="72" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.38235;0.38627;0.42810;1"/></rect>
+<rect x="515.0" y="254.0" width="170" height="72" rx="15" fill="none" stroke="#10B981" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.50654;0.51046;0.55229;1"/></rect>
+<rect x="230.0" y="254.0" width="200" height="72" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.63072;0.63464;0.67647;1"/></rect>
+<rect x="225.0" y="84.0" width="210" height="72" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.63072;0.63464;0.67647;1"/></rect>
+<rect x="730.0" y="384.0" width="180" height="72" rx="15" fill="none" stroke="#E11D48" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.75490;0.75882;0.80065;1"/></rect>
+<rect x="740.0" y="124.0" width="160" height="72" rx="15" fill="none" stroke="#0EA5E9" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.87908;0.88301;0.92484;1"/></rect>
+<g opacity="0">
+<rect x="-29.05" y="-30" width="58.1" height="19" rx="9.5" fill="#6366F1"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">request</text>
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 174.0 290.0 L 228.0 290.0" keyPoints="0;0;1;1" keyTimes="0;0.03922;0.13399;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.03922;0.04248;0.13399;0.13725;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#C026D3" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#C026D3" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 330.0 415.0 L 330.0 328.0" keyPoints="0;0;1;1" keyTimes="0;0.16340;0.25817;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.16340;0.16667;0.25817;0.26144;1"/>
+</g>
+<g opacity="0">
+<rect x="-44.8" y="-30" width="89.6" height="19" rx="9.5" fill="#F97316"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">INCR user:42</text>
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 330.0 255.0 L 330.0 158.0" keyPoints="0;0;1;1" keyTimes="0;0.28758;0.38235;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.28758;0.29085;0.38235;0.38562;1"/>
+</g>
+<g opacity="0">
+<rect x="-44.8" y="-30" width="89.6" height="19" rx="9.5" fill="#F97316"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">INCR user:42</text>
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 330.0 155.0 L 330.0 252.0" keyPoints="0;0;1;1" keyTimes="0;0.28758;0.38235;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.28758;0.29085;0.38235;0.38562;1"/>
+</g>
+<g opacity="0">
+<rect x="-47.949999999999996" y="-30" width="95.89999999999999" height="19" rx="9.5" fill="#10B981"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">count 3 ≤ 5 ✓</text>
+<circle r="8" fill="#10B981" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#10B981" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 429.0 290.0 L 513.0 290.0" keyPoints="0;0;1;1" keyTimes="0;0.41176;0.50654;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.41176;0.41503;0.50654;0.50980;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 174.0 290.0 L 228.0 290.0" keyPoints="0;0;1;1" keyTimes="0;0.53595;0.63072;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.53595;0.53922;0.63072;0.63399;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 330.0 255.0 L 330.0 158.0" keyPoints="0;0;1;1" keyTimes="0;0.53595;0.63072;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.53595;0.53922;0.63072;0.63399;1"/>
+</g>
+<g opacity="0">
+<rect x="-47.949999999999996" y="-30" width="95.89999999999999" height="19" rx="9.5" fill="#E11D48"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">count 6 &gt; 5 ✗</text>
+<circle r="8" fill="#E11D48" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#E11D48" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 381.2 325.0 L 520.0 420.0 L 728.0 420.0" keyPoints="0;0;1;1" keyTimes="0;0.66013;0.75490;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.66013;0.66340;0.75490;0.75817;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#0EA5E9" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#0EA5E9" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 381.2 255.0 L 520.0 160.0 L 738.0 160.0" keyPoints="0;0;1;1" keyTimes="0;0.78431;0.87908;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.78431;0.78758;0.87908;0.88235;1"/>
+</g>
+<rect x="24" y="498" width="952" height="44" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#sh)"/>
+<rect x="24" y="538" width="0" height="4" rx="2" fill="#6366F1" opacity="0.55"><animate attributeName="width" dur="15.30s" repeatCount="indefinite" values="0;952" keyTimes="0;1"/></rect>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.03922;0.04706;0.15817;0.16340;1"/>
+<circle cx="52" cy="519" r="13" fill="#6366F1"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">1</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Every request first hits the rate limiter middleware</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 1/7</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.16340;0.17124;0.28235;0.28758;1"/>
+<circle cx="52" cy="519" r="13" fill="#C026D3"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">2</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Limiter knows the rule, e.g. 5 msgs/min per user (cached)</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 2/7</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.28758;0.29542;0.40654;0.41176;1"/>
+<circle cx="52" cy="519" r="13" fill="#F97316"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">3</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">It increments the user&#x27;s counter for the current window in Redis</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 3/7</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.41176;0.41961;0.53072;0.53595;1"/>
+<circle cx="52" cy="519" r="13" fill="#10B981"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">4</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Under the limit → forward to the API server</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 4/7</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.53595;0.54379;0.65490;0.66013;1"/>
+<circle cx="52" cy="519" r="13" fill="#6366F1"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">5</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">More requests keep coming…</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 5/7</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.66013;0.66797;0.77908;0.78431;1"/>
+<circle cx="52" cy="519" r="13" fill="#E11D48"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">6</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Over the limit → reject with 429 + Retry-After header</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 6/7</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.78431;0.79216;0.97843;0.98366;1"/>
+<circle cx="52" cy="519" r="13" fill="#0EA5E9"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">7</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">(Optionally) queue dropped work to process later</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 7/7</text>
+</g>
+</svg>

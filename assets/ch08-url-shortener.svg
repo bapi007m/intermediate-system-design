@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#0F172A" flood-opacity="0.10"/></filter>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#CBD5E1"/></pattern>
+<marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#94A3B8"/></marker>
+<marker id="a0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6366F1"/></marker>
+<marker id="a1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#F97316"/></marker>
+<marker id="a2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#10B981"/></marker>
+<marker id="a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#E11D48"/></marker>
+<marker id="a4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0EA5E9"/></marker>
+<marker id="a5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C026D3"/></marker>
+</defs>
+<rect x="1" y="1" width="998" height="558" rx="18" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+<rect x="1" y="1" width="998" height="558" rx="18" fill="url(#dots)" opacity="0.6"/>
+<text x="28" y="38" font-size="20" font-weight="800" fill="#0F172A">Ch 8 · Design a URL Shortener</text>
+<text x="28" y="58" font-size="12.5" fill="#64748B">Shorten (orange) and redirect (indigo) flows</text>
+<rect x="903.8" y="24" width="11" height="11" rx="3" fill="#FFF7ED" stroke="#F97316" stroke-width="1.6"/>
+<text x="918.8" y="34" font-size="11" fill="#475569">Storage</text>
+<rect x="848.8" y="24" width="11" height="11" rx="3" fill="#FDF4FF" stroke="#C026D3" stroke-width="1.6"/>
+<text x="863.8" y="34" font-size="11" fill="#475569">Queue</text>
+<rect x="793.8" y="24" width="11" height="11" rx="3" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.6"/>
+<text x="808.8" y="34" font-size="11" fill="#475569">Cache</text>
+<rect x="725.5999999999999" y="24" width="11" height="11" rx="3" fill="#ECFDF5" stroke="#10B981" stroke-width="1.6"/>
+<text x="740.5999999999999" y="34" font-size="11" fill="#475569">Service</text>
+<rect x="637.5999999999999" y="24" width="11" height="11" rx="3" fill="#F0F9FF" stroke="#0EA5E9" stroke-width="1.6"/>
+<text x="652.5999999999999" y="34" font-size="11" fill="#475569">Gateway/LB</text>
+<rect x="575.9999999999999" y="24" width="11" height="11" rx="3" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.6"/>
+<text x="590.9999999999999" y="34" font-size="11" fill="#475569">Client</text>
+<path d="M 174.0 290.0 L 208.0 290.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 369.0 290.0 L 393.0 290.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 480.0 255.0 L 480.0 158.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 544.6 255.0 L 649.8 198.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 544.6 325.0 L 638.8 376.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 564.0 290.0 L 788.0 290.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)" stroke-dasharray="5 5"/>
+<path d="M 174.0 290.0 L 208.0 290.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.03488;0.03837;0.14826;0.15174;1"/></path>
+<path d="M 369.0 290.0 L 393.0 290.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.03488;0.03837;0.14826;0.15174;1"/></path>
+<path d="M 544.6 325.0 L 638.8 376.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.14535;0.14884;0.25872;0.26221;1"/></path>
+<path d="M 644.3 379.0 L 550.2 328.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.14535;0.14884;0.25872;0.26221;1"/></path>
+<path d="M 480.0 255.0 L 480.0 158.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.25581;0.25930;0.36919;0.37267;1"/></path>
+<path d="M 480.0 155.0 L 480.0 252.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.25581;0.25930;0.36919;0.37267;1"/></path>
+<path d="M 564.0 290.0 L 788.0 290.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.36628;0.36977;0.47965;0.48314;1"/></path>
+<path d="M 544.6 325.0 L 638.8 376.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.47674;0.48023;0.59012;0.59360;1"/></path>
+<path d="M 174.0 290.0 L 208.0 290.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.58721;0.59070;0.70058;0.70407;1"/></path>
+<path d="M 369.0 290.0 L 393.0 290.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.58721;0.59070;0.70058;0.70407;1"/></path>
+<path d="M 544.6 255.0 L 649.8 198.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.69767;0.70116;0.81105;0.81453;1"/></path>
+<path d="M 655.4 195.0 L 550.2 252.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.69767;0.70116;0.81105;0.81453;1"/></path>
+<path d="M 396.0 290.0 L 372.0 290.0" fill="none" stroke="#10B981" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a2)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.80814;0.81163;0.92151;0.92500;1"/></path>
+<path d="M 211.0 290.0 L 177.0 290.0" fill="none" stroke="#10B981" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a2)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.80814;0.81163;0.92151;0.92500;1"/></path>
+<rect x="30.0" y="259.0" width="140" height="62" rx="12" fill="#EEF2FF" stroke="#6366F1" stroke-width="2" filter="url(#sh)"/>
+<text x="50.0" y="297" font-size="19" text-anchor="middle">🌐</text>
+<text x="114" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">User</text>
+<text x="114" y="305" text-anchor="middle" font-size="11" fill="#475569">browser</text>
+<rect x="215.0" y="259.0" width="150" height="62" rx="12" fill="#F0F9FF" stroke="#0EA5E9" stroke-width="2" filter="url(#sh)"/>
+<text x="290" y="295" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Load Balancer</text>
+<rect x="400.0" y="259.0" width="160" height="62" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#sh)"/>
+<text x="480" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Web Servers</text>
+<text x="480" y="305" text-anchor="middle" font-size="11" fill="#475569">stateless</text>
+<rect x="390.0" y="89.0" width="180" height="62" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#sh)"/>
+<text x="480" y="118" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">ID Generator</text>
+<text x="480" y="135" text-anchor="middle" font-size="11" fill="#475569">Snowflake (Ch 7)</text>
+<rect x="625.0" y="129.0" width="190" height="62" rx="12" fill="#FEF2F2" stroke="#EF4444" stroke-width="2" filter="url(#sh)"/>
+<text x="801.0" y="147.0" font-size="12" text-anchor="middle">⚡</text>
+<text x="720" y="158" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Cache</text>
+<text x="720" y="175" text-anchor="middle" font-size="11" fill="#475569">shortURL → longURL</text>
+<path d="M 630.0 392.0 A 90.0 9 0 0 0 810.0 392.0 V 448.0 A 90.0 9 0 0 1 630.0 448.0 Z" fill="#FFF7ED" stroke="#F97316" stroke-width="2" filter="url(#sh)"/>
+<ellipse cx="720.0" cy="392.0" rx="90.0" ry="9" fill="#FFFFFF" stroke="#F97316" stroke-width="2"/>
+<text x="720" y="423" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Database</text>
+<text x="720" y="440" text-anchor="middle" font-size="11" fill="#475569">id · short · long</text>
+<rect x="795.0" y="259.0" width="210" height="62" rx="12" fill="#F5F5F4" stroke="#78716C" stroke-width="2" stroke-dasharray="6 4" filter="url(#sh)"/>
+<text x="900" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Base62</text>
+<text x="900" y="305" text-anchor="middle" font-size="11" fill="#475569">2009215674938 → zn9edcu</text>
+<rect x="210.0" y="254.0" width="160" height="72" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.11919;0.12267;0.15988;1"/></rect>
+<rect x="395.0" y="254.0" width="170" height="72" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.11919;0.12267;0.15988;1"/></rect>
+<rect x="625.0" y="378.0" width="190" height="84" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.22965;0.23314;0.27035;1"/></rect>
+<rect x="395.0" y="254.0" width="170" height="72" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.22965;0.23314;0.27035;1"/></rect>
+<rect x="385.0" y="84.0" width="190" height="72" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.34012;0.34360;0.38081;1"/></rect>
+<rect x="395.0" y="254.0" width="170" height="72" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.34012;0.34360;0.38081;1"/></rect>
+<rect x="790.0" y="254.0" width="220" height="72" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.45058;0.45407;0.49128;1"/></rect>
+<rect x="625.0" y="378.0" width="190" height="84" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.56105;0.56453;0.60174;1"/></rect>
+<rect x="210.0" y="254.0" width="160" height="72" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.67151;0.67500;0.71221;1"/></rect>
+<rect x="395.0" y="254.0" width="170" height="72" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.67151;0.67500;0.71221;1"/></rect>
+<rect x="620.0" y="124.0" width="200" height="72" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.78198;0.78547;0.82267;1"/></rect>
+<rect x="395.0" y="254.0" width="170" height="72" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.78198;0.78547;0.82267;1"/></rect>
+<rect x="210.0" y="254.0" width="160" height="72" rx="15" fill="none" stroke="#10B981" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.89244;0.89593;0.93314;1"/></rect>
+<rect x="25.0" y="254.0" width="150" height="72" rx="15" fill="none" stroke="#10B981" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.89244;0.89593;0.93314;1"/></rect>
+<g opacity="0">
+<rect x="-44.8" y="-30" width="89.6" height="19" rx="9.5" fill="#F97316"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">POST longURL</text>
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 174.0 290.0 L 208.0 290.0" keyPoints="0;0;1;1" keyTimes="0;0.03488;0.11919;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.03488;0.03779;0.11919;0.12209;1"/>
+</g>
+<g opacity="0">
+<rect x="-44.8" y="-30" width="89.6" height="19" rx="9.5" fill="#F97316"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">POST longURL</text>
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 369.0 290.0 L 393.0 290.0" keyPoints="0;0;1;1" keyTimes="0;0.03488;0.11919;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.03488;0.03779;0.11919;0.12209;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 544.6 325.0 L 638.8 376.0" keyPoints="0;0;1;1" keyTimes="0;0.14535;0.22965;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.14535;0.14826;0.22965;0.23256;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 644.3 379.0 L 550.2 328.0" keyPoints="0;0;1;1" keyTimes="0;0.14535;0.22965;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.14535;0.14826;0.22965;0.23256;1"/>
+</g>
+<g opacity="0">
+<rect x="-35.349999999999994" y="-30" width="70.69999999999999" height="19" rx="9.5" fill="#F97316"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">unique ID</text>
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 480.0 255.0 L 480.0 158.0" keyPoints="0;0;1;1" keyTimes="0;0.25581;0.34012;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.25581;0.25872;0.34012;0.34302;1"/>
+</g>
+<g opacity="0">
+<rect x="-35.349999999999994" y="-30" width="70.69999999999999" height="19" rx="9.5" fill="#F97316"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">unique ID</text>
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 480.0 155.0 L 480.0 252.0" keyPoints="0;0;1;1" keyTimes="0;0.25581;0.34012;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.25581;0.25872;0.34012;0.34302;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 564.0 290.0 L 788.0 290.0" keyPoints="0;0;1;1" keyTimes="0;0.36628;0.45058;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.36628;0.36919;0.45058;0.45349;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 544.6 325.0 L 638.8 376.0" keyPoints="0;0;1;1" keyTimes="0;0.47674;0.56105;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.47674;0.47965;0.56105;0.56395;1"/>
+</g>
+<g opacity="0">
+<rect x="-44.8" y="-30" width="89.6" height="19" rx="9.5" fill="#6366F1"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">GET /zn9edcu</text>
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 174.0 290.0 L 208.0 290.0" keyPoints="0;0;1;1" keyTimes="0;0.58721;0.67151;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.58721;0.59012;0.67151;0.67442;1"/>
+</g>
+<g opacity="0">
+<rect x="-44.8" y="-30" width="89.6" height="19" rx="9.5" fill="#6366F1"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">GET /zn9edcu</text>
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 369.0 290.0 L 393.0 290.0" keyPoints="0;0;1;1" keyTimes="0;0.58721;0.67151;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.58721;0.59012;0.67151;0.67442;1"/>
+</g>
+<g opacity="0">
+<rect x="-16.45" y="-30" width="32.9" height="19" rx="9.5" fill="#6366F1"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">hit</text>
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 544.6 255.0 L 649.8 198.0" keyPoints="0;0;1;1" keyTimes="0;0.69767;0.78198;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.69767;0.70058;0.78198;0.78488;1"/>
+</g>
+<g opacity="0">
+<rect x="-16.45" y="-30" width="32.9" height="19" rx="9.5" fill="#6366F1"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">hit</text>
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 655.4 195.0 L 550.2 252.0" keyPoints="0;0;1;1" keyTimes="0;0.69767;0.78198;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.69767;0.70058;0.78198;0.78488;1"/>
+</g>
+<g opacity="0">
+<rect x="-57.4" y="-30" width="114.8" height="19" rx="9.5" fill="#10B981"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">301/302 redirect</text>
+<circle r="8" fill="#10B981" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#10B981" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 396.0 290.0 L 372.0 290.0" keyPoints="0;0;1;1" keyTimes="0;0.80814;0.89244;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.80814;0.81105;0.89244;0.89535;1"/>
+</g>
+<g opacity="0">
+<rect x="-57.4" y="-30" width="114.8" height="19" rx="9.5" fill="#10B981"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">301/302 redirect</text>
+<circle r="8" fill="#10B981" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#10B981" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 211.0 290.0 L 177.0 290.0" keyPoints="0;0;1;1" keyTimes="0;0.80814;0.89244;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.80814;0.81105;0.89244;0.89535;1"/>
+</g>
+<rect x="24" y="498" width="952" height="44" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#sh)"/>
+<rect x="24" y="538" width="0" height="4" rx="2" fill="#6366F1" opacity="0.55"><animate attributeName="width" dur="17.20s" repeatCount="indefinite" values="0;952" keyTimes="0;1"/></rect>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.03488;0.04186;0.14070;0.14535;1"/>
+<circle cx="52" cy="519" r="13" fill="#F97316"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">1</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">User submits a long URL to shorten</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 1/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.14535;0.15233;0.25116;0.25581;1"/>
+<circle cx="52" cy="519" r="13" fill="#F97316"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">2</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Already shortened? Return the existing short URL</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 2/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.25581;0.26279;0.36163;0.36628;1"/>
+<circle cx="52" cy="519" r="13" fill="#F97316"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">3</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Otherwise, get a new unique ID</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 3/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.36628;0.37326;0.47209;0.47674;1"/>
+<circle cx="52" cy="519" r="13" fill="#F97316"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">4</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Convert the ID to base62 → a 7-character short code</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 4/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.47674;0.48372;0.58256;0.58721;1"/>
+<circle cx="52" cy="519" r="13" fill="#F97316"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">5</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Save (id, shortURL, longURL)</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 5/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.58721;0.59419;0.69302;0.69767;1"/>
+<circle cx="52" cy="519" r="13" fill="#6366F1"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">6</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Later, someone clicks the short link</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 6/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.69767;0.70465;0.80349;0.80814;1"/>
+<circle cx="52" cy="519" r="13" fill="#6366F1"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">7</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Look up the long URL in cache (DB on miss)</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 7/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.80814;0.81512;0.98081;0.98547;1"/>
+<circle cx="52" cy="519" r="13" fill="#10B981"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">8</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Browser is redirected to the original long URL</text>
+<text x="960" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 8/8</text>
+</g>
+</svg>

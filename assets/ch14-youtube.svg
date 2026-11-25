@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 560" width="1120" height="560" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#0F172A" flood-opacity="0.10"/></filter>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#CBD5E1"/></pattern>
+<marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#94A3B8"/></marker>
+<marker id="a0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6366F1"/></marker>
+<marker id="a1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#F97316"/></marker>
+<marker id="a2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#10B981"/></marker>
+<marker id="a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#E11D48"/></marker>
+<marker id="a4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0EA5E9"/></marker>
+<marker id="a5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C026D3"/></marker>
+</defs>
+<rect x="1" y="1" width="1118" height="558" rx="18" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+<rect x="1" y="1" width="1118" height="558" rx="18" fill="url(#dots)" opacity="0.6"/>
+<text x="28" y="38" font-size="20" font-weight="800" fill="#0F172A">Ch 14 · Design YouTube</text>
+<text x="28" y="58" font-size="12.5" fill="#64748B">Upload &amp; transcode (orange) · streaming from a CDN (indigo)</text>
+<rect x="1023.8" y="24" width="11" height="11" rx="3" fill="#FFF7ED" stroke="#F97316" stroke-width="1.6"/>
+<text x="1038.8" y="34" font-size="11" fill="#475569">Storage</text>
+<rect x="968.8" y="24" width="11" height="11" rx="3" fill="#FDF4FF" stroke="#C026D3" stroke-width="1.6"/>
+<text x="983.8" y="34" font-size="11" fill="#475569">Queue</text>
+<rect x="913.8" y="24" width="11" height="11" rx="3" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.6"/>
+<text x="928.8" y="34" font-size="11" fill="#475569">Cache</text>
+<rect x="845.5999999999999" y="24" width="11" height="11" rx="3" fill="#ECFDF5" stroke="#10B981" stroke-width="1.6"/>
+<text x="860.5999999999999" y="34" font-size="11" fill="#475569">Service</text>
+<rect x="757.5999999999999" y="24" width="11" height="11" rx="3" fill="#F0F9FF" stroke="#0EA5E9" stroke-width="1.6"/>
+<text x="772.5999999999999" y="34" font-size="11" fill="#475569">Gateway/LB</text>
+<rect x="695.9999999999999" y="24" width="11" height="11" rx="3" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.6"/>
+<text x="710.9999999999999" y="34" font-size="11" fill="#475569">Client</text>
+<path d="M 90.0 155.0 L 90.0 130.0 L 208.0 130.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 156.8 225.0 L 227.5 262.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 164.0 420.0 L 1000.0 420.0 L 1000.0 338.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 151.2 385.0 L 233.5 338.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 389.0 130.0 L 438.0 130.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 639.0 130.0 L 678.0 130.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 540.0 165.0 L 540.0 262.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 446.0 300.0 L 402.0 300.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<rect x="397.0" y="290.0" width="54" height="18" rx="9" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="424.0" y="303.0" text-anchor="middle" font-size="10.5" fill="#64748B">handler</text>
+<path d="M 352.5 335.0 L 420.0 380.0 L 780.0 380.0 L 780.0 342.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 830.5 169.0 L 950.8 262.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 156.8 225.0 L 227.5 262.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.03488;0.03837;0.14826;0.15174;1"/></path>
+<path d="M 90.0 155.0 L 90.0 130.0 L 208.0 130.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.14535;0.14884;0.25872;0.26221;1"/></path>
+<path d="M 389.0 130.0 L 438.0 130.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.25581;0.25930;0.36919;0.37267;1"/></path>
+<path d="M 639.0 130.0 L 678.0 130.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.36628;0.36977;0.47965;0.48314;1"/></path>
+<path d="M 830.5 169.0 L 950.8 262.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.47674;0.48023;0.59012;0.59360;1"/></path>
+<path d="M 540.0 165.0 L 540.0 262.0" fill="none" stroke="#10B981" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a2)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.58721;0.59070;0.70058;0.70407;1"/></path>
+<path d="M 446.0 300.0 L 402.0 300.0" fill="none" stroke="#10B981" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a2)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.58721;0.59070;0.70058;0.70407;1"/></path>
+<path d="M 352.5 335.0 L 420.0 380.0 L 780.0 380.0 L 780.0 342.0" fill="none" stroke="#10B981" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a2)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.58721;0.59070;0.70058;0.70407;1"/></path>
+<path d="M 151.2 385.0 L 233.5 338.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.69767;0.70116;0.81105;0.81453;1"/></path>
+<path d="M 1000.0 335.0 L 1000.0 420.0 L 167.0 420.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.80814;0.81163;0.92151;0.92500;1"/></path>
+<rect x="15.0" y="159.0" width="150" height="62" rx="12" fill="#EEF2FF" stroke="#6366F1" stroke-width="2" filter="url(#sh)"/>
+<text x="35.0" y="197" font-size="19" text-anchor="middle">🎬</text>
+<text x="104" y="188" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Creator</text>
+<text x="104" y="205" text-anchor="middle" font-size="11" fill="#475569">uploads video</text>
+<rect x="20.0" y="389.0" width="140" height="62" rx="12" fill="#EEF2FF" stroke="#6366F1" stroke-width="2" filter="url(#sh)"/>
+<text x="40.0" y="427" font-size="19" text-anchor="middle">📺</text>
+<text x="104" y="418" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Viewer</text>
+<text x="104" y="435" text-anchor="middle" font-size="11" fill="#475569">watches</text>
+<rect x="205.0" y="269.0" width="190" height="62" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#sh)"/>
+<text x="300" y="298" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">API Servers</text>
+<text x="300" y="315" text-anchor="middle" font-size="11" fill="#475569">metadata · signed URLs</text>
+<path d="M 215.0 104.0 A 85.0 9 0 0 0 385.0 104.0 V 156.0 A 85.0 9 0 0 1 215.0 156.0 Z" fill="#FFF7ED" stroke="#F97316" stroke-width="2" filter="url(#sh)"/>
+<ellipse cx="300.0" cy="104.0" rx="85.0" ry="9" fill="#FFFFFF" stroke="#F97316" stroke-width="2"/>
+<text x="300" y="133" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Original Storage</text>
+<text x="300" y="150" text-anchor="middle" font-size="11" fill="#475569">BLOB</text>
+<rect x="445.0" y="99.0" width="190" height="62" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#sh)"/>
+<text x="540" y="128" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Transcoding</text>
+<text x="540" y="145" text-anchor="middle" font-size="11" fill="#475569">DAG: split → encode</text>
+<path d="M 685.0 104.0 A 95.0 9 0 0 0 875.0 104.0 V 156.0 A 95.0 9 0 0 1 685.0 156.0 Z" fill="#FFF7ED" stroke="#F97316" stroke-width="2" filter="url(#sh)"/>
+<ellipse cx="780.0" cy="104.0" rx="95.0" ry="9" fill="#FFFFFF" stroke="#F97316" stroke-width="2"/>
+<text x="780" y="133" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Transcoded Storage</text>
+<text x="780" y="150" text-anchor="middle" font-size="11" fill="#475569">many resolutions</text>
+<rect x="450.0" y="269.0" width="180" height="62" rx="12" fill="#FDF4FF" stroke="#C026D3" stroke-width="2" filter="url(#sh)"/>
+<rect x="501" y="322.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.2"/>
+<rect x="514" y="322.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.32"/>
+<rect x="527" y="322.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.44"/>
+<rect x="540" y="322.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.56"/>
+<rect x="553" y="322.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.6799999999999999"/>
+<rect x="566" y="322.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.8"/>
+<text x="540" y="305" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Completion Queue</text>
+<path d="M 685.0 274.0 A 95.0 9 0 0 0 875.0 274.0 V 326.0 A 95.0 9 0 0 1 685.0 326.0 Z" fill="#FFF7ED" stroke="#F97316" stroke-width="2" filter="url(#sh)"/>
+<ellipse cx="780.0" cy="274.0" rx="95.0" ry="9" fill="#FFFFFF" stroke="#F97316" stroke-width="2"/>
+<text x="780" y="310" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Metadata DB + Cache</text>
+<rect x="930.0" y="269.0" width="140" height="62" rx="12" fill="#F5F5F4" stroke="#78716C" stroke-width="2" stroke-dasharray="6 4" filter="url(#sh)"/>
+<text x="1000" y="298" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">CDN</text>
+<text x="1000" y="315" text-anchor="middle" font-size="11" fill="#475569">streams video</text>
+<rect x="200.0" y="264.0" width="200" height="72" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.11919;0.12267;0.15988;1"/></rect>
+<rect x="210.0" y="90.0" width="180" height="80" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.22965;0.23314;0.27035;1"/></rect>
+<rect x="440.0" y="94.0" width="200" height="72" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.34012;0.34360;0.38081;1"/></rect>
+<rect x="680.0" y="90.0" width="200" height="80" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.45058;0.45407;0.49128;1"/></rect>
+<rect x="925.0" y="264.0" width="150" height="72" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.56105;0.56453;0.60174;1"/></rect>
+<rect x="445.0" y="264.0" width="190" height="72" rx="15" fill="none" stroke="#10B981" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.67151;0.67500;0.71221;1"/></rect>
+<rect x="200.0" y="264.0" width="200" height="72" rx="15" fill="none" stroke="#10B981" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.67151;0.67500;0.71221;1"/></rect>
+<rect x="680.0" y="260.0" width="200" height="80" rx="15" fill="none" stroke="#10B981" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.67151;0.67500;0.71221;1"/></rect>
+<rect x="200.0" y="264.0" width="200" height="72" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.78198;0.78547;0.82267;1"/></rect>
+<rect x="15.0" y="384.0" width="150" height="72" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.89244;0.89593;0.93314;1"/></rect>
+<g opacity="0">
+<rect x="-51.1" y="-30" width="102.2" height="19" rx="9.5" fill="#F97316"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">get upload URL</text>
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 156.8 225.0 L 227.5 262.0" keyPoints="0;0;1;1" keyTimes="0;0.03488;0.11919;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.03488;0.03779;0.11919;0.12209;1"/>
+</g>
+<g opacity="0">
+<rect x="-35.349999999999994" y="-30" width="70.69999999999999" height="19" rx="9.5" fill="#F97316"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">raw video</text>
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 90.0 155.0 L 90.0 130.0 L 208.0 130.0" keyPoints="0;0;1;1" keyTimes="0;0.14535;0.22965;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.14535;0.14826;0.22965;0.23256;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 389.0 130.0 L 438.0 130.0" keyPoints="0;0;1;1" keyTimes="0;0.25581;0.34012;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.25581;0.25872;0.34012;0.34302;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 639.0 130.0 L 678.0 130.0" keyPoints="0;0;1;1" keyTimes="0;0.36628;0.45058;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.36628;0.36919;0.45058;0.45349;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 830.5 169.0 L 950.8 262.0" keyPoints="0;0;1;1" keyTimes="0;0.47674;0.56105;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.47674;0.47965;0.56105;0.56395;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#10B981" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#10B981" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 540.0 165.0 L 540.0 262.0" keyPoints="0;0;1;1" keyTimes="0;0.58721;0.67151;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.58721;0.59012;0.67151;0.67442;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#10B981" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#10B981" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 446.0 300.0 L 402.0 300.0" keyPoints="0;0;1;1" keyTimes="0;0.58721;0.67151;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.58721;0.59012;0.67151;0.67442;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#10B981" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#10B981" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 352.5 335.0 L 420.0 380.0 L 780.0 380.0 L 780.0 342.0" keyPoints="0;0;1;1" keyTimes="0;0.58721;0.67151;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.58721;0.59012;0.67151;0.67442;1"/>
+</g>
+<g opacity="0">
+<rect x="-35.349999999999994" y="-30" width="70.69999999999999" height="19" rx="9.5" fill="#6366F1"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">watch?v=…</text>
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 151.2 385.0 L 233.5 338.0" keyPoints="0;0;1;1" keyTimes="0;0.69767;0.78198;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.69767;0.70058;0.78198;0.78488;1"/>
+</g>
+<g opacity="0">
+<rect x="-54.25" y="-30" width="108.5" height="19" rx="9.5" fill="#6366F1"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">adaptive stream</text>
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="17.20s" repeatCount="indefinite" path="M 1000.0 335.0 L 1000.0 420.0 L 167.0 420.0" keyPoints="0;0;1;1" keyTimes="0;0.80814;0.89244;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.80814;0.81105;0.89244;0.89535;1"/>
+</g>
+<rect x="24" y="498" width="1072" height="44" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#sh)"/>
+<rect x="24" y="538" width="0" height="4" rx="2" fill="#6366F1" opacity="0.55"><animate attributeName="width" dur="17.20s" repeatCount="indefinite" values="0;1072" keyTimes="0;1"/></rect>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.03488;0.04186;0.14070;0.14535;1"/>
+<circle cx="52" cy="519" r="13" fill="#F97316"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">1</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Creator gets a pre-signed URL from the API servers</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 1/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.14535;0.15233;0.25116;0.25581;1"/>
+<circle cx="52" cy="519" r="13" fill="#F97316"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">2</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Video bytes go straight to original storage (in chunks)</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 2/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.25581;0.26279;0.36163;0.36628;1"/>
+<circle cx="52" cy="519" r="13" fill="#F97316"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">3</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Transcoding splits it into GOPs and encodes in parallel</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 3/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.36628;0.37326;0.47209;0.47674;1"/>
+<circle cx="52" cy="519" r="13" fill="#F97316"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">4</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Outputs: 360p…4K, multiple codecs, thumbnails</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 4/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.47674;0.48372;0.58256;0.58721;1"/>
+<circle cx="52" cy="519" r="13" fill="#F97316"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">5</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Popular videos are distributed to the CDN</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 5/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.58721;0.59419;0.69302;0.69767;1"/>
+<circle cx="52" cy="519" r="13" fill="#10B981"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">6</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Completion event → metadata updated: video is ready</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 6/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.69767;0.70465;0.80349;0.80814;1"/>
+<circle cx="52" cy="519" r="13" fill="#6366F1"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">7</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">A viewer opens the video page (metadata from API)</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 7/8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="17.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.80814;0.81512;0.98081;0.98547;1"/>
+<circle cx="52" cy="519" r="13" fill="#6366F1"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">8</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Video streams from the nearest CDN edge (bitrate adapts)</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 8/8</text>
+</g>
+</svg>

@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 560" width="1120" height="560" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#0F172A" flood-opacity="0.10"/></filter>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#CBD5E1"/></pattern>
+<marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#94A3B8"/></marker>
+<marker id="a0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6366F1"/></marker>
+<marker id="a1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#F97316"/></marker>
+<marker id="a2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#10B981"/></marker>
+<marker id="a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#E11D48"/></marker>
+<marker id="a4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0EA5E9"/></marker>
+<marker id="a5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C026D3"/></marker>
+</defs>
+<rect x="1" y="1" width="1118" height="558" rx="18" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+<rect x="1" y="1" width="1118" height="558" rx="18" fill="url(#dots)" opacity="0.6"/>
+<text x="28" y="38" font-size="20" font-weight="800" fill="#0F172A">Ch 10 · Design a Notification System</text>
+<text x="28" y="58" font-size="12.5" fill="#64748B">Push (iOS/Android), SMS and email — decoupled with one queue per channel</text>
+<rect x="1023.8" y="24" width="11" height="11" rx="3" fill="#FFF7ED" stroke="#F97316" stroke-width="1.6"/>
+<text x="1038.8" y="34" font-size="11" fill="#475569">Storage</text>
+<rect x="968.8" y="24" width="11" height="11" rx="3" fill="#FDF4FF" stroke="#C026D3" stroke-width="1.6"/>
+<text x="983.8" y="34" font-size="11" fill="#475569">Queue</text>
+<rect x="913.8" y="24" width="11" height="11" rx="3" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.6"/>
+<text x="928.8" y="34" font-size="11" fill="#475569">Cache</text>
+<rect x="845.5999999999999" y="24" width="11" height="11" rx="3" fill="#ECFDF5" stroke="#10B981" stroke-width="1.6"/>
+<text x="860.5999999999999" y="34" font-size="11" fill="#475569">Service</text>
+<rect x="757.5999999999999" y="24" width="11" height="11" rx="3" fill="#F0F9FF" stroke="#0EA5E9" stroke-width="1.6"/>
+<text x="772.5999999999999" y="34" font-size="11" fill="#475569">Gateway/LB</text>
+<rect x="695.9999999999999" y="24" width="11" height="11" rx="3" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.6"/>
+<text x="710.9999999999999" y="34" font-size="11" fill="#475569">Client</text>
+<path d="M 174.0 290.0 L 203.0 290.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 300.0 325.0 L 300.0 407.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 300.0 255.0 L 300.0 168.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 348.1 255.0 L 476.0 162.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 394.0 266.5 L 438.0 255.5" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 394.0 311.4 L 443.0 322.5" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 349.7 325.0 L 474.6 413.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 559.9 159.0 L 687.8 252.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 599.0 254.8 L 658.0 269.5" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 594.0 323.2 L 658.0 308.6" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 561.2 416.0 L 686.1 328.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 819.0 290.0 L 823.0 290.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 940.0 325.0 L 940.0 412.0" fill="none" stroke="#CBD5E1" stroke-width="2.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<path d="M 174.0 290.0 L 203.0 290.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.03922;0.04314;0.16667;0.17059;1"/></path>
+<path d="M 300.0 255.0 L 300.0 168.0" fill="none" stroke="#C026D3" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a5)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.16340;0.16732;0.29085;0.29477;1"/></path>
+<path d="M 300.0 325.0 L 300.0 407.0" fill="none" stroke="#C026D3" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a5)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.16340;0.16732;0.29085;0.29477;1"/></path>
+<path d="M 348.1 255.0 L 476.0 162.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.28758;0.29150;0.41503;0.41895;1"/></path>
+<path d="M 349.7 325.0 L 474.6 413.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.28758;0.29150;0.41503;0.41895;1"/></path>
+<path d="M 559.9 159.0 L 687.8 252.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.41176;0.41569;0.53922;0.54314;1"/></path>
+<path d="M 561.2 416.0 L 686.1 328.0" fill="none" stroke="#6366F1" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a0)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.41176;0.41569;0.53922;0.54314;1"/></path>
+<path d="M 819.0 290.0 L 823.0 290.0" fill="none" stroke="#F97316" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a1)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.53595;0.53987;0.66340;0.66732;1"/></path>
+<path d="M 940.0 325.0 L 940.0 412.0" fill="none" stroke="#10B981" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a2)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.66013;0.66405;0.78758;0.79150;1"/></path>
+<path d="M 691.9 255.0 L 564.0 162.0" fill="none" stroke="#E11D48" stroke-width="3.4" stroke-linecap="round" marker-end="url(#a3)" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;0.9;0.9;0;0" keyTimes="0;0.78431;0.78824;0.91176;0.91569;1"/></path>
+<rect x="10.0" y="259.0" width="160" height="62" rx="12" fill="#EEF2FF" stroke="#6366F1" stroke-width="2" filter="url(#sh)"/>
+<text x="30.0" y="297" font-size="19" text-anchor="middle">⚙️</text>
+<text x="104" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Services 1…N</text>
+<text x="104" y="305" text-anchor="middle" font-size="11" fill="#475569">billing, shipping…</text>
+<rect x="210.0" y="259.0" width="180" height="62" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#sh)"/>
+<text x="300" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Notification Svc</text>
+<text x="300" y="305" text-anchor="middle" font-size="11" fill="#475569">auth · rate limit</text>
+<path d="M 205.0 423.0 A 95.0 9 0 0 0 395.0 423.0 V 477.0 A 95.0 9 0 0 1 205.0 477.0 Z" fill="#FFF7ED" stroke="#F97316" stroke-width="2" filter="url(#sh)"/>
+<ellipse cx="300.0" cy="423.0" rx="95.0" ry="9" fill="#FFFFFF" stroke="#F97316" stroke-width="2"/>
+<text x="300" y="453" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">User / Device DB</text>
+<text x="300" y="470" text-anchor="middle" font-size="11" fill="#475569">tokens · settings</text>
+<rect x="220.0" y="99.0" width="160" height="62" rx="12" fill="#FEF2F2" stroke="#EF4444" stroke-width="2" filter="url(#sh)"/>
+<text x="366.0" y="117.0" font-size="12" text-anchor="middle">⚡</text>
+<text x="300" y="128" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Cache</text>
+<text x="300" y="145" text-anchor="middle" font-size="11" fill="#475569">user · template</text>
+<rect x="450.0" y="105.0" width="140" height="50" rx="12" fill="#FDF4FF" stroke="#C026D3" stroke-width="2" filter="url(#sh)"/>
+<rect x="481" y="146.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.2"/>
+<rect x="494" y="146.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.32"/>
+<rect x="507" y="146.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.44"/>
+<rect x="520" y="146.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.56"/>
+<rect x="533" y="146.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.6799999999999999"/>
+<rect x="546" y="146.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.8"/>
+<text x="520" y="135" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">iOS Queue</text>
+<rect x="445.0" y="210.0" width="150" height="50" rx="12" fill="#FDF4FF" stroke="#C026D3" stroke-width="2" filter="url(#sh)"/>
+<rect x="481" y="251.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.2"/>
+<rect x="494" y="251.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.32"/>
+<rect x="507" y="251.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.44"/>
+<rect x="520" y="251.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.56"/>
+<rect x="533" y="251.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.6799999999999999"/>
+<rect x="546" y="251.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.8"/>
+<text x="520" y="240" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Android Queue</text>
+<rect x="450.0" y="315.0" width="140" height="50" rx="12" fill="#FDF4FF" stroke="#C026D3" stroke-width="2" filter="url(#sh)"/>
+<rect x="481" y="356.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.2"/>
+<rect x="494" y="356.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.32"/>
+<rect x="507" y="356.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.44"/>
+<rect x="520" y="356.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.56"/>
+<rect x="533" y="356.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.6799999999999999"/>
+<rect x="546" y="356.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.8"/>
+<text x="520" y="345" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">SMS Queue</text>
+<rect x="450.0" y="420.0" width="140" height="50" rx="12" fill="#FDF4FF" stroke="#C026D3" stroke-width="2" filter="url(#sh)"/>
+<rect x="481" y="461.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.2"/>
+<rect x="494" y="461.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.32"/>
+<rect x="507" y="461.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.44"/>
+<rect x="520" y="461.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.56"/>
+<rect x="533" y="461.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.6799999999999999"/>
+<rect x="546" y="461.0" width="10" height="4" rx="2" fill="#C026D3" opacity="0.8"/>
+<text x="520" y="450" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Email Queue</text>
+<rect x="665.0" y="259.0" width="150" height="62" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#sh)"/>
+<text x="740" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Workers</text>
+<text x="740" y="305" text-anchor="middle" font-size="11" fill="#475569">retry · log</text>
+<rect x="830.0" y="259.0" width="220" height="62" rx="12" fill="#F5F5F4" stroke="#78716C" stroke-width="2" stroke-dasharray="6 4" filter="url(#sh)"/>
+<text x="940" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">3rd Parties</text>
+<text x="940" y="305" text-anchor="middle" font-size="11" fill="#475569">APNs · FCM · Twilio · SendGrid</text>
+<rect x="865.0" y="419.0" width="150" height="62" rx="12" fill="#EEF2FF" stroke="#6366F1" stroke-width="2" filter="url(#sh)"/>
+<text x="885.0" y="457" font-size="19" text-anchor="middle">📱</text>
+<text x="954" y="455" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">User Device</text>
+<rect x="205.0" y="254.0" width="190" height="72" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.13399;0.13791;0.17974;1"/></rect>
+<rect x="215.0" y="94.0" width="170" height="72" rx="15" fill="none" stroke="#C026D3" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.25817;0.26209;0.30392;1"/></rect>
+<rect x="200.0" y="409.0" width="200" height="82" rx="15" fill="none" stroke="#C026D3" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.25817;0.26209;0.30392;1"/></rect>
+<rect x="445.0" y="100.0" width="150" height="60" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.38235;0.38627;0.42810;1"/></rect>
+<rect x="445.0" y="415.0" width="150" height="60" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.38235;0.38627;0.42810;1"/></rect>
+<rect x="660.0" y="254.0" width="160" height="72" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.50654;0.51046;0.55229;1"/></rect>
+<rect x="660.0" y="254.0" width="160" height="72" rx="15" fill="none" stroke="#6366F1" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.50654;0.51046;0.55229;1"/></rect>
+<rect x="825.0" y="254.0" width="230" height="72" rx="15" fill="none" stroke="#F97316" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.63072;0.63464;0.67647;1"/></rect>
+<rect x="860.0" y="414.0" width="160" height="72" rx="15" fill="none" stroke="#10B981" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.75490;0.75882;0.80065;1"/></rect>
+<rect x="445.0" y="100.0" width="150" height="60" rx="15" fill="none" stroke="#E11D48" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;0.87908;0.88301;0.92484;1"/></rect>
+<g opacity="0">
+<rect x="-51.1" y="-30" width="102.2" height="19" rx="9.5" fill="#6366F1"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">notify user 42</text>
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 174.0 290.0 L 203.0 290.0" keyPoints="0;0;1;1" keyTimes="0;0.03922;0.13399;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.03922;0.04248;0.13399;0.13725;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#C026D3" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#C026D3" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 300.0 255.0 L 300.0 168.0" keyPoints="0;0;1;1" keyTimes="0;0.16340;0.25817;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.16340;0.16667;0.25817;0.26144;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#C026D3" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#C026D3" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 300.0 325.0 L 300.0 407.0" keyPoints="0;0;1;1" keyTimes="0;0.16340;0.25817;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.16340;0.16667;0.25817;0.26144;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 348.1 255.0 L 476.0 162.0" keyPoints="0;0;1;1" keyTimes="0;0.28758;0.38235;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.28758;0.29085;0.38235;0.38562;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 349.7 325.0 L 474.6 413.0" keyPoints="0;0;1;1" keyTimes="0;0.28758;0.38235;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.28758;0.29085;0.38235;0.38562;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 559.9 159.0 L 687.8 252.0" keyPoints="0;0;1;1" keyTimes="0;0.41176;0.50654;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.41176;0.41503;0.50654;0.50980;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#6366F1" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#6366F1" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 561.2 416.0 L 686.1 328.0" keyPoints="0;0;1;1" keyTimes="0;0.41176;0.50654;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.41176;0.41503;0.50654;0.50980;1"/>
+</g>
+<g opacity="0">
+<circle r="8" fill="#F97316" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#F97316" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 819.0 290.0 L 823.0 290.0" keyPoints="0;0;1;1" keyTimes="0;0.53595;0.63072;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.53595;0.53922;0.63072;0.63399;1"/>
+</g>
+<g opacity="0">
+<rect x="-10.15" y="-30" width="20.3" height="19" rx="9.5" fill="#10B981"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">🔔</text>
+<circle r="8" fill="#10B981" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#10B981" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 940.0 325.0 L 940.0 412.0" keyPoints="0;0;1;1" keyTimes="0;0.66013;0.75490;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.66013;0.66340;0.75490;0.75817;1"/>
+</g>
+<g opacity="0">
+<rect x="-22.75" y="-30" width="45.5" height="19" rx="9.5" fill="#E11D48"/>
+<text x="0" y="-17" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">retry</text>
+<circle r="8" fill="#E11D48" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle r="8" fill="none" stroke="#E11D48" stroke-width="2"><animate attributeName="r" values="8;15;8" dur="0.9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+<animateMotion dur="15.30s" repeatCount="indefinite" path="M 691.9 255.0 L 564.0 162.0" keyPoints="0;0;1;1" keyTimes="0;0.78431;0.87908;1" calcMode="linear"/>
+<animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.78431;0.78758;0.87908;0.88235;1"/>
+</g>
+<rect x="24" y="498" width="1072" height="44" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#sh)"/>
+<rect x="24" y="538" width="0" height="4" rx="2" fill="#6366F1" opacity="0.55"><animate attributeName="width" dur="15.30s" repeatCount="indefinite" values="0;1072" keyTimes="0;1"/></rect>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.03922;0.04706;0.15817;0.16340;1"/>
+<circle cx="52" cy="519" r="13" fill="#6366F1"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">1</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">A service (e.g. shipping) asks to notify a user</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 1/7</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.16340;0.17124;0.28235;0.28758;1"/>
+<circle cx="52" cy="519" r="13" fill="#C026D3"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">2</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Fetch device token, contact info and opt-in settings</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 2/7</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.28758;0.29542;0.40654;0.41176;1"/>
+<circle cx="52" cy="519" r="13" fill="#6366F1"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">3</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Message is put on the right channel&#x27;s queue</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 3/7</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.41176;0.41961;0.53072;0.53595;1"/>
+<circle cx="52" cy="519" r="13" fill="#6366F1"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">4</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Workers pull messages from the queues</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 4/7</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.53595;0.54379;0.65490;0.66013;1"/>
+<circle cx="52" cy="519" r="13" fill="#F97316"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">5</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Workers call APNs / FCM / SMS / email providers</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 5/7</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.66013;0.66797;0.77908;0.78431;1"/>
+<circle cx="52" cy="519" r="13" fill="#10B981"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">6</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">Provider delivers to the user&#x27;s device or inbox</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 6/7</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="15.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.78431;0.79216;0.97843;0.98366;1"/>
+<circle cx="52" cy="519" r="13" fill="#E11D48"/>
+<text x="52" y="524" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">7</text>
+<text x="76" y="524" font-size="14" fill="#0F172A">On failure, the message is re-queued and retried</text>
+<text x="1080" y="524" text-anchor="end" font-size="11" fill="#94A3B8">step 7/7</text>
+</g>
+</svg>
